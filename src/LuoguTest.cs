@@ -60,34 +60,34 @@
 //**PT 2024-01-06 22:14
 //**About:1.Two Numbers' sum
 //td
-using System;
-using System.Security;
-namespace Program
-{
-	class Solution
-	{
-		static public int[] TwoSum(int[] nums, int target)
-		{
-			var i = 0; var j = 1;
-			for (; i < nums.Length;i++)
-			for(j = i + 1;j <nums.Length; j++)//！不写大括号了wi，：检测到无法访问的代码//额傻了没有必要
-			if (nums[i] + nums[j] == target) return new int[] { i, j };//艹又是帮我写好了…………
-			return new int[] {0,0};//！主要这个new int[]必须要的！
-		}
+// using System;
+// using System.Security;
+// namespace Program
+// {
+// 	class Solution
+// 	{
+// 		static public int[] TwoSum(int[] nums, int target)
+// 		{
+// 			var i = 0; var j = 1;
+// 			for (; i < nums.Length;i++)
+// 			for(j = i + 1;j <nums.Length; j++)//！不写大括号了wi，：检测到无法访问的代码//额傻了没有必要
+// 			if (nums[i] + nums[j] == target) return new int[] { i, j };//艹又是帮我写好了…………
+// 			return new int[] {0,0};//！主要这个new int[]必须要的！
+// 		}
 
-		static void Main(string[] args)
-		{
-			string? input = Console.ReadLine();
-			string[] parts = input.Split(' ');
-			int[] nums = new int[parts.GetLength(0)];
-			var i = 0;
-			foreach(String part in parts)
-			{
-				nums[i] = Convert.ToInt32(part);
-			}
-			Console.WriteLine(TwoSum(nums, 9));//！对象引用对于非静态的字段、方法或属性“Solution.TwoSum(int[], int)”是必需的
-			//！悟了没？其实就是让你实例化！！！不然就要用static！！！
-			//!额输出不了………………累了拜拜
-		}
-	}
-}
+// 		static void Main(string[] args)
+// 		{
+// 			string? input = Console.ReadLine();
+// 			string[] parts = input.Split(' ');
+// 			int[] nums = new int[parts.GetLength(0)];
+// 			var i = 0;
+// 			foreach(String part in parts)
+// 			{
+// 				nums[i] = Convert.ToInt32(part);
+// 			}
+// 			Console.WriteLine(TwoSum(nums, 9));//！对象引用对于非静态的字段、方法或属性“Solution.TwoSum(int[], int)”是必需的
+// 			//！悟了没？其实就是让你实例化！！！不然就要用static！！！
+// 			//!额输出不了………………累了拜拜
+// 		}
+// 	}
+// }
