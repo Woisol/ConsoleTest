@@ -1,0 +1,5 @@
+D:\Code\C#\ConsoleTest\obj\Debug\net8.0\ConsoleTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\C#\ConsoleTest\obj\Debug\net8.0\ConsoleTest.AssemblyInfoInputs.cache
+D:\Code\C#\ConsoleTest\obj\Debug\net8.0\ConsoleTest.AssemblyInfo.cs
+D:\Code\C#\ConsoleTest\obj\Debug\net8.0\ConsoleTest.csproj.CoreCompileInputs.cache
+D:\Code\C#\ConsoleTest\obj\Debug\net8.0\ConsoleTest.sourcelink.json
